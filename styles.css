@@ -75,11 +75,14 @@ a:hover {
 
 
 .sections-container { 
-  margin-left: 390px;
-  margin-right: 500px;
+  /* margin-left: 390px;
+  margin-right: 500px; */
   width: 2000px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; 
+  margin: auto;
+
 
 }
 
