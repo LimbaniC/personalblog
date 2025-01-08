@@ -5,9 +5,9 @@ body, html {
 }
 
 body {
-  background-color: #1e1e1e; /* Dark background */
-  overflow-x: hidden; /* Hide vertical scrollbar */
-  color: #eaeaea; /* Light text */
+  background-color: #1e1e1e; 
+  overflow-x: hidden;
+  color: #eaeaea; 
 }
 
 a {
