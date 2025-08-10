@@ -79,6 +79,48 @@ a:hover {
 }
 
 
+
+  
+.rainbow-button {
+
+  margin-top: 20px; 
+  
+  background: linear-gradient(to right,
+    rgba(255, 128, 0, 0.75),
+    rgba(255, 0, 128, 0.75),
+    rgba(255, 0, 255, 0.75),
+    rgba(128, 0, 255, 0.75),
+    rgba(0, 0, 255, 0.75),
+    rgba(0, 128, 255, 0.75),
+    rgba(0, 255, 255, 0.75)
+  );
+  background-size: 400% 400%; /* lets the gradient animate */
+  animation: gradientFlow 8s ease infinite;
+
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
 .sections-container { 
   /* margin-left: 390px;
   margin-right: 500px; */
